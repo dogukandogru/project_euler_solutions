@@ -1,3 +1,3 @@
 # project_euler_solutions
 
-This repo contains the solution of hackerrank project euler problems.
+This repo contains the solutions of hackerrank project euler problems.
