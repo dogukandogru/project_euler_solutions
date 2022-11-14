@@ -10,13 +10,9 @@ public class Solution048 {
 
         BigInteger sum = BigInteger.valueOf(0);
         for(int i=1; i<=num; i++){
-
             BigInteger val = BigInteger.valueOf(i).pow(i);
-
-            sum = sum.add(BigInteger.valueOf(100));
-
-
+            sum = sum.add(val);
         }
-        System.out.println(sum);
+        System.out.println(new BigInteger(sum.toString().substring(sum.toString().length()-10)));
     }
 }
